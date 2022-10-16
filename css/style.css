@@ -93,5 +93,68 @@ nav .menu a
     background-repeat: repeat;
     background-position: auto;
     background-size: contain;
+    margin-bottom: 100px;
 }
-
+.recipie-section
+{
+    text-align: center;
+}
+.recipie-section .heading
+{
+    margin-bottom: 50px;
+}
+.recipie-section .heading h2
+{
+    color: #FF8787;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.recipie-section .heading p
+{
+    color: #888;
+    font-size: 20px;
+}
+.recipie-section .recipie-card
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.recipie-section .recipie-card .recipie
+{
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 5px 10px 20px; rgba(0,0,0,0.1);
+}
+.recipie-section .recipie-card .recipie .img
+{
+    position: relative;
+    height: 70%;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.recipie-section .recipie-card .recipie .img img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.recipie-section .recipie-card .recipie h4
+{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.recipie-section .recipie-card .recipie p
+{
+    color:#666;
+    font-size: 15px;
+}
