@@ -98,6 +98,7 @@ nav .menu a
 .recipie-section
 {
     text-align: center;
+    margin-bottom: 100px;
 }
 .recipie-section .heading
 {
@@ -130,7 +131,7 @@ nav .menu a
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #ddd;
-    box-shadow: 5px 10px 20px; rgba(0,0,0,0.1);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.1);
 }
 .recipie-section .recipie-card .recipie .img
 {
@@ -157,4 +158,36 @@ nav .menu a
 {
     color:#666;
     font-size: 15px;
+}
+.social-section
+{
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    justify-content: center;
+    padding: 50px 100px;
+}
+.social-section .social-box
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.4);
+    padding: 0 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.social-section .social-box h2
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.second-section .social-box span
+{
+    color: #333;
+    font-size: 30px;
 }
