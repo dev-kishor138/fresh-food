@@ -191,3 +191,12 @@ nav .menu a
     color: #333;
     font-size: 30px;
 }
+footer
+{
+    text-align: center;
+    height: 200px;
+    background: #1C6758;
+    align-items: center;
+    padding-top: 50px;
+}
+
